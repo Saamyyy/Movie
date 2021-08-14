@@ -17,7 +17,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField "String", "FOURSQUARE_BASE_URL", "\"https://api.foursquare.com/v2/\""
+        buildConfigField "String", "FLIKER_BASE_URL", "\"htts://api.flickr.com/services/rest/\""
         buildConfigField "String", "API_KEY", "\"e0cb34c899cd1196a698fe6d6f9c1962\""
         buildConfigField "String", "SECRET", "\"c05fcb03be36b4c1\""
 

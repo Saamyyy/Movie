@@ -46,7 +46,7 @@ class AppModule(private val context: Context) {
                 })
                 .build()
         return Retrofit.Builder()
-            .baseUrl(BuildConfig.APPLICATION_ID)
+            .baseUrl(BuildConfig.FLIKER_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
             .client(client)

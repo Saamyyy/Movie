@@ -7,5 +7,5 @@ import dagger.Module
 
 @Module(includes = [BaseViewModelModule::class])
 
-class RecommendedVenuesScreenDataModule {
+class MovieDetailsScreenDataModule {
 }

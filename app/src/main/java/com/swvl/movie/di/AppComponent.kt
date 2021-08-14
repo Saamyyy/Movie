@@ -1,8 +1,6 @@
-package com.adyen.android.assignment.di
+package com.swvl.movie.di
 
-import com.swvl.movie.di.AppModule
-import com.swvl.movie.di.movie_details.RecommendedVenuesScreenComponent
-import com.swvl.movie.di.movie_details.RecommendedVenuesScreenDataModule
+import com.adyen.android.assignment.di.ApplicationScope
 import com.swvl.movie.di.movies_list.MoviesListComponent
 import com.swvl.movie.di.movies_list.MoviesListModule
 import dagger.Component

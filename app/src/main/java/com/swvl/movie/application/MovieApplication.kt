@@ -3,7 +3,7 @@ package com.swvl.movie.application
 import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
-import com.adyen.android.assignment.di.AppComponent
+import com.swvl.movie.di.AppComponent
 import com.adyen.android.assignment.di.DaggerAppComponent
 import com.swvl.movie.di.AppModule
 
