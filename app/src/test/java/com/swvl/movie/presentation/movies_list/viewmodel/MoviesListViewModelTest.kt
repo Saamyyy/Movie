@@ -4,8 +4,8 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.whenever
-import com.swvl.movie.common.AppErrorMapper
-import com.swvl.movie.common.AppErrorModel
+import com.swvl.movie.common.error_mapper.AppErrorMapper
+import com.swvl.movie.common.error_mapper.AppErrorModel
 import com.swvl.movie.data.movies_list.model.MovieRaw
 import com.swvl.movie.data.movies_list.model.MovieRawItem
 import com.swvl.movie.domain.movies_list.GetFilteredMovesList

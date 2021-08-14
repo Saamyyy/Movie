@@ -2,7 +2,7 @@ package com.swvl.movie.presentation.movies_list.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import com.swvl.movie.base.viewmodel.BaseViewModel
-import com.swvl.movie.common.AppErrorMapper
+import com.swvl.movie.common.error_mapper.AppErrorMapper
 import com.swvl.movie.domain.movies_list.GetFilteredMovesList
 import com.swvl.movie.domain.movies_list.GetMoviesList
 import com.swvl.movie.presentation.movies_list.MoviesListViewEntity

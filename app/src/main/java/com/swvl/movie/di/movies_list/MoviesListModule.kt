@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import com.adyen.android.assignment.di.BaseViewModelModule
 import com.adyen.android.assignment.di.test.MoviesList
 import com.swvl.movie.base.viewmodel.ViewModelKey
-import com.swvl.movie.common.AppErrorMapper
+import com.swvl.movie.common.error_mapper.AppErrorMapper
 import com.swvl.movie.data.movies_list.MoviesListRepository
 import com.swvl.movie.data.movies_list.local.MoviesListLocalDataSource
 import com.swvl.movie.domain.movies_list.GetFilteredMovesList

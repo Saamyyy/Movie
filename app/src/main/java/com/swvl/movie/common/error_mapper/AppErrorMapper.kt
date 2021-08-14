@@ -1,6 +1,7 @@
-package com.swvl.movie.common
+package com.swvl.movie.common.error_mapper
 
 import com.swvl.movie.R
+import com.swvl.movie.common.IStringProvider
 import retrofit2.HttpException
 import java.net.ConnectException
 import java.net.SocketException
