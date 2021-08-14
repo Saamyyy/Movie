@@ -4,8 +4,8 @@ import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import com.swvl.movie.di.AppComponent
-import com.adyen.android.assignment.di.DaggerAppComponent
 import com.swvl.movie.di.AppModule
+import com.swvl.movie.di.DaggerAppComponent
 
 class MovieApplication : Application() {
     override fun onCreate() {

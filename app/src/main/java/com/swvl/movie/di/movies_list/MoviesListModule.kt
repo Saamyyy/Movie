@@ -42,7 +42,7 @@ class MoviesListModule {
 
     @Provides
     @MoviesList
-    fun provideVenueRepository(
+    fun provideMoviesListRepository(
         moviesListLocalDataSource: MoviesListLocalDataSource,
     ) = MoviesListRepository(moviesListLocalDataSource)
 }
