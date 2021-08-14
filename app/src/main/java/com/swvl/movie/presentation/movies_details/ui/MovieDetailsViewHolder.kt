@@ -11,8 +11,8 @@ import com.swvl.movie.R
 class MovieDetailsViewHolder(parentView: ViewGroup) : RecyclerView.ViewHolder(
     View.inflate(parentView.context, R.layout.movie_details_list_iten, null)
 ) {
-    private val progress by lazy { itemView.findViewById<View>(R.id.movieDetailsImage) }
-    private val image: ImageView by lazy { itemView.findViewById(R.id.movieDetailsProgress) }
+    private val progress by lazy { itemView.findViewById<View>(R.id.movieDetailsProgress) }
+    private val image: ImageView by lazy { itemView.findViewById(R.id.movieDetailsImage) }
 
     fun bind(url: String) {
         image.visibility = View.VISIBLE

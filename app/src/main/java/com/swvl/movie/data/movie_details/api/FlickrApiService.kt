@@ -12,6 +12,6 @@ interface FlickrApiService {
         @Query("api_key") apiKey: String= BuildConfig.API_KEY,
         @Query("text") title: String,
         @Query("page") page: Int?= 1,
-        @Query("per_page") itemsPerPage: Int?= 20
+        @Query("per_page") itemsPerPage: Int?= 40
     ): Single<FlickrSearchResultRaw>
 }

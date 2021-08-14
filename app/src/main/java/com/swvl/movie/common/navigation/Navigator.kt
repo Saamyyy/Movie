@@ -2,17 +2,15 @@ package com.swvl.movie.common.navigation
 
 import android.content.Context
 import android.content.Intent
-import javax.inject.Inject
 
-class Navigator @Inject constructor(
-    val context: Context
-) {
+object Navigator {
 
-    fun navigate(navigatorModel: NavigatorModel) {
-        launchActivityWithAction(navigatorModel)
+    fun navigate(context: Context, navigatorModel: NavigatorModel) {
+        launchActivityWithAction(context, navigatorModel)
     }
 
     private fun launchActivityWithAction(
+        context: Context,
         intentNavigatorModel: NavigatorModel
     ) {
         val intent = newIntent(context, intentNavigatorModel.action)
