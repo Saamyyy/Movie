@@ -1,0 +1,1 @@
+/Users/mahmoudsamy/AndroidStudioProjects/Movie/buildSrc/build/classes/kotlin/main/Libs.class:/Users/mahmoudsamy/AndroidStudioProjects/Movie/buildSrc/build/classes/kotlin/main/Versions.class

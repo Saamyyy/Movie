@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="general_error_message">An error has occurred</string>
+    <string name="network_error_message">Please check your connection and try again</string>
+    <string name="season">Season</string>
+    <string name="empty_message">no available movies </string>
+
+</resources>

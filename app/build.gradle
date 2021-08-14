@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.swvl.movie"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "String", "FOURSQUARE_BASE_URL", "\"https://api.foursquare.com/v2/\""
+        buildConfigField "String", "API_KEY", "\"e0cb34c899cd1196a698fe6d6f9c1962\""
+        buildConfigField "String", "SECRET", "\"c05fcb03be36b4c1\""
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // Android Jetpack
+    implementation Libs.kotlinStdLib
+    implementation Libs.appCompat
+    implementation Libs.androidXCore
+    implementation Libs.architectureComponentsExtensions
+    implementation Libs.liveData
+    // Android Jetpack UI
+    implementation Libs.materialDesign
+    implementation Libs.constraintLayout
+    implementation Libs.cardView
+    implementation Libs.fragment
+    // Dependency Injection
+    implementation Libs.daggerLib
+    kapt Libs.daggerCompiler
+    //Rx
+    implementation Libs.rxJava2
+    implementation Libs.rxAndroid2
+    implementation Libs.rxKotlin
+    // Networking
+    implementation Libs.retrofit
+    implementation Libs.retrofitConverter
+    implementation Libs.retrofitRxAdapter2
+    implementation Libs.gson
+    implementation Libs.okhttp3Logging
+    //ui
+    implementation Libs.circleImage
+    implementation Libs.glide
+    kapt Libs.glide
+    // Location
+    implementation Libs.googleLocation
+
+    //test
+    testImplementation Libs.junit
+    testImplementation Libs.mockito
+    testImplementation Libs.mockitoAndroid
+    testImplementation Libs.mockitoKotlin2
+    androidTestImplementation Libs.androidXTest
+    androidTestImplementation Libs.espresso
+    testImplementation Libs.mockitoInLine
+    testImplementation Libs.archCoreTesting
+    implementation 'com.google.android.material:material:1.4.0'
+
+}
