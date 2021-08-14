@@ -24,6 +24,7 @@ class MovieDetailsActivity : BaseViewModelActivity<MovieDetailsViewModel>() {
     }
 
     private fun displayMovieDetails() {
+        supportActionBar?.title= movieTitle
         movieDetailsYear.text = movieYear
         movieDetailsGenres.text = movieGenres
         movieDetailsCast.text = movieCast
