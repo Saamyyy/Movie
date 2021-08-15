@@ -6,6 +6,7 @@ Simple app for getting movies images from FLicker API
 - this app has a basic `BaseViewModelActivity` and `BaseViewModel` to handle the communication between activities and ViewModels across the app
 - this app contains `dagger` with custom scoops for DI 
 - this app contains a global way of handling errors across the app in `AppErrorMapper`
+- this app has unit testing for all the layers `presentation`, `domain`, `data`
 # Third Party 
 - this app handle dependency by Gradle Dependency Management w/Kotlin 
 - you can find all the dependencies on `Libs` under `BuildSc`
