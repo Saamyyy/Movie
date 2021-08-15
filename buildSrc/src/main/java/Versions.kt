@@ -1,16 +1,16 @@
 object Versions {
     // kotlin STD lib
-    const val kotlin ="1.3.50"
+    const val kotlin ="1.5.0"
 
     // Android Jetpack
-    const val androidXCore="1.0.2"
+    const val androidXCore="1.3.1"
     const val lifecycleVersion = "2.1.0"
 
     // Android Jetpack UI
     const val cardView = "1.0.0"
     const val fragment = "1.1.0"
-    const val constraintLayout="1.1.3"
-    const val materialDesign = "1.0.0"
+    const val constraintLayout="2.1.0"
+    const val materialDesign = "1.4.0"
 
     // Dependency Injection
     const val dagger = "2.25.2"
