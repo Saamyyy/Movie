@@ -4,8 +4,9 @@
     <string name="network_error_message">Please check your connection and try again</string>
     <string name="season">Season</string>
     <string name="empty_message">no available movies </string>
-    <string name="empty_message_movie_list">no Images movies </string>
+    <string name="empty_message_movie_list">no Images found </string>
     <string name="cast">Cast</string>
     <string name="genres">Genres</string>
     <string name="year">Year</string>
+    <string name="search_here_hint">search here </string>
 </resources>

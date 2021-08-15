@@ -13,13 +13,16 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Movie">
-        <activity android:name=".presentation.movies_details.ui.MovieDetailsActivity">
+        <activity
+            android:name=".presentation.movies_details.ui.MovieDetailsActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="presentation.movies_details.ui.MovieDetailsActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.movies_list.ui.MoviesListActivity">
+        <activity android:name=".presentation.movies_list.ui.MoviesListActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

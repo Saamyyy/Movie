@@ -85,7 +85,7 @@ class MoviesListActivity : BaseViewModelActivity<MoviesListViewModel>() {
         inflater.inflate(R.menu.options_menu, menu)
         val item = menu.findItem(R.id.search)
         val searchView = item.actionView as SearchView
-        searchView.queryHint = "search herer"
+        searchView.queryHint = getString(R.string.search_here_hint)
         searchView.clearFocus()
         searchView.setOnQueryTextListener(onQueryTextListener())
         return true
